@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+	int a=0;
+	printf("来到这里、、、\n");
+	printf("做完你想做的了吗?(1/0)\n");
+	scanf("%d",&a);
+	if(a==1) printf("那么，你离梦想又近了一步\n");
+	else printf("勿忘初心\n");
+
+
+
+
+
+
+
+}

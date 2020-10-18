@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+
+{
+	int woman;
+	int man;
+	int students;
+	int people;
+	int teachers;
+	scanf("%d",&man);
+	woman=man/10;
+	students=woman+man;
+	scanf("%d",&teachers);
+	people=teachers+students;
+	printf("%d\n",people);
+}
